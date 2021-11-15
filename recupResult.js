@@ -38,8 +38,6 @@ axios
       return info;
     }
 
-    console.log(position);
-
     for (let i = 0; i < position.length; i++) {
       rank.push({});
       for (let j = 0; j < findArray.length; j++) {
